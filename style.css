@@ -18,15 +18,10 @@
     grid-column: span 1;
     font-size: large;
     font-weight: 500;
-    background-color: rgb(77, 95, 35);
-    color: rgb(227, 240, 197);
+    background-color: rgb(86, 116, 5);
+    color: rgb(255, 255, 255);
 }
-.right-main-content{
-    background-color: rgb(224, 243, 180);
-    color: rgb(77, 95, 35);
-    height: 100%;
 
-}
 .left-content {
     padding: 1rem;
 }
@@ -49,13 +44,14 @@
     border-radius: 30%;
     overflow: hidden;
     cursor: grab;
+    padding: 1rem;
+    
 }
 
 .profile-image img {
-    height: 140px;
-    width: 155px;
-    object-fit: auto;
-    margin-bottom: -5px;
+    height: 160px;
+    width: auto;
+    object-fit: fill;
 }
 
 .profile-image img:hover {
@@ -120,8 +116,9 @@
     grid-column: span 1 / span 2;
     font-size: large;
     font-weight: 500;
-    background-color: azure;
-    color: rgb(24, 30, 32);
+    background-color: rgb(207, 245, 137);
+    color: rgb(62, 82, 16);
+    width: 90%;
 }
 
 .right-title {
